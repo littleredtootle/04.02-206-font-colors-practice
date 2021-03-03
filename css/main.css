@@ -1,0 +1,63 @@
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+  color:  #7b7d70;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #4eafb8;
+}
+
+p {
+  color: #ff8641;
+}
+
+
+/* Header (h1)	Subheader (h2)	Paragraph (p)
+Phone	#7b7d70	#4eafb8	#ff8641
+Tablet	#02cbd2	#fcc02a	#7b8f8e
+Desktop	#6e4b61	#cabd61	#c19e74 */
+
+
+/* On screens that are wider than 769px, set the h1, h2 and p font to various colors
+/* ----------- Tablets larger than 768px wide ----------- */
+@media screen and (min-width: 769px) {
+  h1 {
+    color: #02cbd2;
+  }
+
+  h2 {
+    color: #fcc02a;
+  }
+
+  p {
+    color: #7b8f8e;
+  }
+}
+
+/* On screens that are wider than 1200px, set the h1, h2 and p font to various colors
+/* ----------- Monitors larger than 1200px wide ----------- */
+@media screen and (min-width: 1201px) {
+  h1 {
+    color: #6e4b61;
+  }
+
+  h2 {
+    color: #cabd61;
+  }
+
+  p {
+    color: #c19e74;
+  }
+}
